@@ -36,7 +36,10 @@ in the browser — **displaying USD when the UI language is English**.
   the current session has no ledger row, without competing with composer controls; each assistant
   message also gets a cost chip (hover shows token breakdown and model). The
   badge opens an expandable panel (session / today / month / total / **account balance** /
-  **savings** / per-model, plus the active pricing mode).
+  **savings** / per-model, plus the active pricing mode). A DSH Desktop Frontend
+  can merge its MacBook history baseline with every configured Server ledger.
+  The panel preserves the local history, each reachable Server total, and any
+  temporarily unavailable source instead of presenting the aggregate as one Server.
 - **Read-only endpoints** (loopback by default): `GET /billing/state`,
   `GET /billing/session/<id>`.
 
